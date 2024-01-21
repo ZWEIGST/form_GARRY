@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Полезная рассылка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box--container">
+        <div class="container">
+            <form class="form" action="start.html"  name="form" method="POST" onsubmit="return boxValidation()">
+    
+                <div class="check">
+                    <input type="checkbox" class="input" name="confirm">
+                    <label for="checkbox" class="check-lable">Я согласен получать полезную рассылку</label>
+                </div>
+                
+                <label class="check-error check-hidden">Вы точно не хотите получать полезную рассылку?</label>
+    
+                <button class="check-btn">Уверен/а</button>
+            </form>
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
